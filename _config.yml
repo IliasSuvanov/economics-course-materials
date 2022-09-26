@@ -1,0 +1,36 @@
+title: Economics course materials
+description: I gather here course materials that I find usefull.
+
+url: https://iliassuvanov.github.io
+baseurl: /economics-course-materials/
+
+theme: jekyll-theme-merlot
+
+
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
+
+readme_index:
+  with_frontmatter: true
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+  - jekyll-sitemap
+
+exclude:
+  - Makefile
+  - CNAME
+  - LICENSE
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
